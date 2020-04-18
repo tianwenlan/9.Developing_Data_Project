@@ -1,0 +1,23 @@
+---
+title: "R Markdown and Plotly April 17th 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Slide with Plotly
+```{r, echo=TRUE}
+#install.packages('plotly')
+library(plotly)
+data("mtcars")
+plot_ly(x = mtcars$wt, y = mtcars$mpg, mode = 'markers')
+
+```
+
+
+
+
+
