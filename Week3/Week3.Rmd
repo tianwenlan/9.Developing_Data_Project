@@ -8,16 +8,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-## Slide with Plotly
-```{r, echo=TRUE}
+## Plot with Plotly
+```{r, echo=FALSE, message=FALSE}
 #install.packages('plotly')
 library(plotly)
-data("mtcars")
-plot_ly(x = mtcars$wt, y = mtcars$mpg, mode = 'markers')
+plot_ly(mtcars, x = ~wt, y = ~mpg, mode = 'markers', type='scatter')
 
 ```
-
-
-
-
 
