@@ -1,0 +1,12 @@
+name: myApp
+title: myApp
+username:
+account: tianwenlan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2137808
+bundleId: 3028829
+url: https://tianwenlan.shinyapps.io/myApp/
+when: 1587155297.27874
+asMultiple: FALSE
+asStatic: FALSE

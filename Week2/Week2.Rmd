@@ -1,0 +1,22 @@
+---
+title: "R Markdown and Leaflet April 17th 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo=FALSE}
+#install.packages('leaflet')
+library(leaflet)
+
+my_map <-leaflet() %>%
+    addTiles() %>%
+    addMarkers(lat=37.7879, lng=-122.4075, popup='Union Square')
+
+my_map
+
+
+```
