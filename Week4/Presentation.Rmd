@@ -22,7 +22,7 @@ plot(faithful$waiting, faithful$eruptions,  xlab = "Waiting Time",
 ```
 
 ## Predict model 
-```{r echo = TRUE}
+```{r echo = TRUE, eval = T}
 model <- lm(eruptions ~ waiting, data = faithful)
 
 ```
